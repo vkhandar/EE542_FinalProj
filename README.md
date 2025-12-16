@@ -21,7 +21,7 @@ app.py is the fronted that will be the website to be used with all the data that
 1) Python 3.9 or newer needed to run program
 2) pip install flask pandas
 3) Ensure that app.py is located on same folder as output_players_war.csv and that out folder has games_with_
-predicted_win_prob_2025.csv and templates folder has index.html
+predicted_win_prob_2024.csv and templates folder has index.html
 4) Run with python app.py
 5) Use any web browser and enter http://127.0.0.1:5000/
 6) Website should show and terminal should show activity 
