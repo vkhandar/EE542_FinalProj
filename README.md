@@ -25,3 +25,5 @@ predicted_win_prob_2024.csv and templates folder has index.html
 4) Run with python app.py
 5) Use any web browser and enter http://127.0.0.1:5000/
 6) Website should show and terminal should show activity 
+
+If you want to run the website on cloud then change the app.py to use 0.0.0.0. Use the external IP of the cloud VM and port 5000 to access the website.
