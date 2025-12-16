@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MLB Win Predictor</title>
+    <script defer src="/static/script.js"></script>
+</head>
+<body>
+
+    <h1>MLB Win Probability (2025)</h1>
+
+    <!-- Home Team Dropdown -->
+    <label>Home Team:</label>
+    <select id="homeTeam">
+        <option value="">Select Home Team</option>
+        {% for t in teams %}
+            <option value="{{ t }}">{{ t }}</option>
+        {% endfor %}
+    </select>
+
+    <!-- Away Team Dropdown -->
+    <label>Away Team:</label>
+    <select id="awayTeam">
+        <option value="">Select Away Team</option>
+        {% for t in teams %}
+            <option value="{{ t }}">{{ t }}</option>
+        {% endfor %}
+    </select>
+
+    <button id="predictBtn">Get Probability</button>
+
+    <h2 id="result"></h2>
+
+</body>
+</html>
